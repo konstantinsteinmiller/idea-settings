@@ -34,9 +34,13 @@
           <option name="url" value="https://github.com/agrando-de/agr-animal-frontend/" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/konstantinsteinmiller/shipment-tracking" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="$USER_HOME$/agrando" />
+    <option name="cloneParentDir" value="C:\Users\Eternal\agrando" />
   </component>
   <component name="VcsApplicationSettings">
     <option name="PATCH_STORAGE_LOCATION" value="$USER_HOME$/agrando/agr-animal-frontend" />
