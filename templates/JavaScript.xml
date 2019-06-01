@@ -45,4 +45,11 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="ire" value="import { readable } from 'svelte/store'&#10;export const $clip$ = readable(null, function start(set) {&#10;  $END$&#10;  return function stop() {}&#10;})" description="onMount" toReformat="false" toShortenFQNames="true">
+    <variable name="clip" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
