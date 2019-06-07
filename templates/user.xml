@@ -141,7 +141,12 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="ge" value="$END$() {&#10;  &#10;}" description="" toReformat="false" toShortenFQNames="true">
+  <template name="ge" value="$END$() {&#10;  return &#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="g" value="$END$() {&#10;  return &#10;}," description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
