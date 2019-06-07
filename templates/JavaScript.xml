@@ -80,4 +80,10 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="do" value="{&#10;  id: &quot;$END$&quot;,&#10;  title: 'GraphQL 101',&#10;  body: 'This is an',&#10;  published: false&#10;}," description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
