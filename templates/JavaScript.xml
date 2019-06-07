@@ -1,11 +1,11 @@
 <templateSet group="JavaScript">
   <template name="nmvue" value="require('./nm-FancyButton.styl');&#10;&#10;var NmFancyButton = {&#10;&#9;template: require('./nm-FancyButton.vue.html'),&#10;&#9;props: {&#10;&#9;&#9;/*type: {&#10;&#9;&#9;&#9;'type': String,&#10;&#9;&#9;&#9;'default': ''&#10;&#9;&#9;}*/&#10;&#9;},&#10;&#9;data: function () {&#10;&#9;&#9;return {};&#10;&#9;},&#10;&#9;methods: {&#10;&#9;&#9;/*click: function() {&#10;&#9;&#9;&#9;if(!this.disabled) {&#10;&#9;&#9;&#9;&#9;this.$emit('click', this);&#10;&#9;&#9;&#9;}&#10;&#9;&#9;}*/&#10;&#9;}&#10;};&#10;&#10;module.exports = NmFancyButton;&#10;" shortcut="TAB" description="NMVue Komponente" toReformat="true" toShortenFQNames="true" />
-  <template name="maf" value="map((el) =&gt; {&#10;   return $END$;&#10;})" description="ES6 arrow func" toReformat="false" toShortenFQNames="true">
+  <template name="maf" value="map(el$END$ =&gt; {&#10;  return {&#10;    &#10;  }&#10;})" description="ES6 arrow func" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name=".fi" value=".filter((el) =&gt; {&#10;   return $END$;&#10;})" description="ES6 fi" toReformat="false" toShortenFQNames="true">
+  <template name=".fi" value=".filter((el$END$) =&gt; {&#10;   return ;&#10;})" description="ES6 fi" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
@@ -26,36 +26,33 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="evd" value="import { createEventDispatcher } from 'svelte'&#10;const dispatch = createEventDispatcher()" description="createEventDispatcher" toReformat="false" toShortenFQNames="true">
+  <template name="or" value="||" description="or operator" toReformat="false" toShortenFQNames="true">
     <context>
-      <option name="HTML" value="true" />
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="smount" value="import { onMount } from 'svelte'&#10;onMount(() =&gt; {&#10;&#10;})" description="onMount" toReformat="false" toShortenFQNames="true">
+  <template name="and" value="&amp;&amp;" description="And operator" toReformat="false" toShortenFQNames="true">
     <context>
-      <option name="HTML" value="true" />
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="iwr" value="import { writable } from 'svelte/store'&#10;export const $clip$ = writable(0)$END$" description="onMount" toReformat="false" toShortenFQNames="true">
-    <variable name="clip" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+  <template name="g" value="$END$() {&#10;&#10;}," description="ES6 fi" toReformat="false" toShortenFQNames="true">
     <context>
-      <option name="HTML" value="true" />
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="ire" value="import { readable } from 'svelte/store'&#10;export const $clip$ = readable(null, function start(set) {&#10;  $END$&#10;  return function stop() {}&#10;})" description="onMount" toReformat="false" toShortenFQNames="true">
-    <variable name="clip" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+  <template name="a" value="($END$ =&gt; )" description="ES6 fi" toReformat="false" toShortenFQNames="true">
     <context>
-      <option name="HTML" value="true" />
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="re" value="{$clip$}$END$" description="" toReformat="false" toShortenFQNames="true">
-    <variable name="clip" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+  <template name="ge" value="$END$() {&#10;&#10;}" description="ES6 fi" toReformat="false" toShortenFQNames="true">
     <context>
-      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="b" value="()$END$" description="ES6 fi" toReformat="false" toShortenFQNames="true">
+    <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
