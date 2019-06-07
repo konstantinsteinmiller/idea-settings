@@ -110,4 +110,40 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="idt" value="$END$: ID!" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="stt" value="$END$: String!" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ast" value="$END$: [String!]!" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ftt" value="$END$: Int!" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ait" value="$END$: [Int!]!" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="act" value="$END$: [$clip$!]!" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="clip" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ge" value="$END$() {&#10;  &#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
