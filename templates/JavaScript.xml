@@ -5,7 +5,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name=".fi" value=".filter((el) =&gt; {&#10;   return $END$;&#10;})" description="ES6 fi" toReformat="false" toShortenFQNames="true">
+  <template name=".fi" value=".filter(el$END$ =&gt; {&#10;   return &#10;})" description="ES6 fi" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
