@@ -6,6 +6,7 @@
       <mapping pattern="LICENSE" type="PLAIN_TEXT" />
       <mapping pattern=".env.sample" type="PLAIN_TEXT" />
       <mapping ext="woff2" type="PLAIN_TEXT" />
+      <mapping ext="eslint" type="PLAIN_TEXT" />
       <mapping ext="eot" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
