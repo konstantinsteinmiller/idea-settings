@@ -161,4 +161,21 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="prp" value="{&#10;  where: {&#10;    id:&quot;$END$&quot;&#10;  },&#10;  data: {&#10;    &#10;  }&#10;}" description="prints object in console" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="prs" value="`{ $END$ }`" description="prints object in console" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ff" value="($END$) =&gt; " description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>

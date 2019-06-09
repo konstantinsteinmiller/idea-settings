@@ -93,7 +93,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="cat" value=".catch(err =&gt; {&#10;  console.warn(err)$END$&#10;})" description="" toReformat="false" toShortenFQNames="true">
+  <template name="cat" value=".catch(err =&gt; {&#10;  console.warn(err.message)$END$&#10;})" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="HTML" value="true" />
       <option name="JAVA_SCRIPT" value="true" />
