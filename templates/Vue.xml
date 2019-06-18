@@ -86,7 +86,7 @@
     </context>
   </template>
   <template name="iat" value="import $clip$ from '@/components/atoms/$clip$'$END$" description="bool prop" toReformat="false" toShortenFQNames="true">
-    <variable name="clip" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+    <variable name="clip" expression="capitalize(snakeCase(clipboard()))" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML" value="true" />
       <option name="JAVA_SCRIPT" value="true" />
@@ -238,7 +238,7 @@
     </context>
   </template>
   <template name="imt" value="import $clip$ from '@/components/molecules/$clip$'$END$" description="bool prop" toReformat="false" toShortenFQNames="true">
-    <variable name="clip" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+    <variable name="clip" expression="capitalize(snakeCase(clipboard()))" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML" value="true" />
       <option name="JAVA_SCRIPT" value="true" />
@@ -246,7 +246,7 @@
     </context>
   </template>
   <template name="iot" value="import $clip$ from '@/components/organisms/$clip$'$END$" description="bool prop" toReformat="false" toShortenFQNames="true">
-    <variable name="clip" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+    <variable name="clip" expression="capitalize(snakeCase(clipboard()))" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML" value="true" />
       <option name="JAVA_SCRIPT" value="true" />
