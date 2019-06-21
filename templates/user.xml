@@ -94,7 +94,6 @@
       <option name="SQL" value="false" />
       <option name="TypeScript" value="false" />
       <option name="Vue" value="true" />
-      <option name="XML" value="false" />
     </context>
   </template>
   <template name="int" value="${$clipboard$}$END$" description="interpolate" toReformat="false" toShortenFQNames="true">
@@ -205,6 +204,12 @@
   <template name="asf" value="async () =&gt; { &#10;  $clip$$END$&#10;}" description="" toReformat="false" toShortenFQNames="true">
     <variable name="clip" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="or" value="|| " description="prints object in console" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
