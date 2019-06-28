@@ -50,7 +50,6 @@
     <variable name="Name" expression="" defaultValue="&quot;Name&quot;" alwaysStopAt="true" />
     <variable name="name" expression="lowercaseAndDash(Name)" defaultValue="" alwaysStopAt="true" />
     <variable name="path" expression="" defaultValue="&quot;path&quot;" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="a-route-params-subscribe" value="this.route.params&#10; .pipe(map(params =&gt; params['id']), tap(id =&gt; (this.id = +id)))&#10; .subscribe(id =&gt; ${1:function()}());&#10;$END$" description="Angular - subscribe to routing parameters" toReformat="true" toShortenFQNames="true">
     <context />
