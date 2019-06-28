@@ -46,9 +46,13 @@
           <option name="url" value="https://github.com/konstantinsteinmiller/csgt-backend" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/agrando-de/agr-animal" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="C:\Users\Eternal\Desktop\codeCompetition\csgt" />
+    <option name="cloneParentDir" value="$USER_HOME$/agrando" />
   </component>
   <component name="VcsApplicationSettings">
     <option name="PATCH_STORAGE_LOCATION" value="$USER_HOME$/agrando/agr-animal-frontend" />
