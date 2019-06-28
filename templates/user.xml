@@ -93,7 +93,6 @@
       <option name="REQUEST" value="false" />
       <option name="SQL" value="false" />
       <option name="TypeScript" value="false" />
-      <option name="Vue" value="true" />
     </context>
   </template>
   <template name="int" value="${$clipboard$}$END$" description="interpolate" toReformat="false" toShortenFQNames="true">
