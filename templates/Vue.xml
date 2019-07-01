@@ -294,4 +294,11 @@
     <variable name="name" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
     <context />
   </template>
+  <template name="on" value="on$camel$$END$" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="camel" expression="capitalize(camelCase(clipboard()))" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="Vue" value="true" />
+    </context>
+  </template>
 </templateSet>
