@@ -292,7 +292,13 @@
   </template>
   <template name="vmethod" value="methods: {&#10;  $name$() {&#10;    $END$&#10;  }&#10;}" description="Vue method" toReformat="true" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
-    <context />
+  </template>
+  <template name="capi" value="$camel$$END$" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="camel" expression="capitalizeAndUnderscore(clipboard())" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+      <option name="Vue" value="true" />
+    </context>
   </template>
   <template name="on" value="on$camel$$END$" description="" toReformat="false" toShortenFQNames="true">
     <variable name="camel" expression="capitalize(camelCase(clipboard()))" defaultValue="" alwaysStopAt="true" />
