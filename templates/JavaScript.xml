@@ -66,7 +66,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="f" value="($clip$) {&#10;  $END$&#10;}" description="" toReformat="false" toShortenFQNames="true">
+  <template name="f" value="$clip$() {&#10;  $END$&#10;}" description="" toReformat="false" toShortenFQNames="true">
     <variable name="clip" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML" value="true" />
