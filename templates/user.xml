@@ -34,7 +34,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="dump" value="console.log('$clipboard$: ', $clipboard$)$END$ // eslint-disable-line" description="dumps object in console" toReformat="false" toShortenFQNames="true">
+  <template name="dump" value="console.log('$clipboard$: ', $clipboard$)$END$" description="dumps object in console" toReformat="false" toShortenFQNames="true">
     <variable name="clipboard" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML" value="true" />
@@ -119,7 +119,7 @@
       <option name="Vue" value="true" />
     </context>
   </template>
-  <template name="dumps" value="console.log($clipboard$)$END$ // eslint-disable-line" description="dumps object in console" toReformat="false" toShortenFQNames="true">
+  <template name="dumps" value="console.log($clipboard$)$END$" description="dumps object in console" toReformat="false" toShortenFQNames="true">
     <variable name="clipboard" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML" value="true" />
