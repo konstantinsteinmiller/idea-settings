@@ -6,6 +6,10 @@
           <option name="url" value="http://github.factset.com" />
           <option name="userName" value="ksteinmiller" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://github.com" />
+          <option name="userName" value="konstantinsteinmiller" />
+        </UrlAndUserName>
       </list>
     </option>
   </component>
