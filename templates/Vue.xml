@@ -115,7 +115,7 @@
       <option name="Vue" value="true" />
     </context>
   </template>
-  <template name="compo" value="components: { $clip$ },&#10;$END$&#10;" description="components section" toReformat="false" toShortenFQNames="true">
+  <template name="compo" value="components: { $clip$ },$END$" description="components section" toReformat="false" toShortenFQNames="true">
     <variable name="clip" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML" value="true" />
