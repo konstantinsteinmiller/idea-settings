@@ -33,6 +33,7 @@
   <action id="GuiDesigner.EditGroup" />
   <action id="Javascript.Linters.EsLint.Fix">
     <mouse-shortcut keystroke="button3 doubleClick" />
+    <mouse-shortcut keystroke="control button3 doubleClick" />
   </action>
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="shift f6" />
