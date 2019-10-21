@@ -5,6 +5,7 @@
     <option name="skipResultsWithOneUsage" value="true" />
     <option name="SKIP_RESULTS_WHEN_ONE_USAGE" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.ts" />
     <mask>*.properties</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
@@ -16,5 +17,6 @@
     <mask>*.mxml</mask>
     <mask>*.twig</mask>
     <mask>*.stories.js</mask>
+    <mask>*.ts</mask>
   </component>
 </application>
