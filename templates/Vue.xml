@@ -43,7 +43,7 @@
     </context>
   </template>
   <template name="licl" value="&lt;li class=&quot;$END$&quot;&gt;&lt;/li&gt;" description="" toReformat="false" toShortenFQNames="true" />
-  <template name="vdata" value="&#10;data() {&#10;  return {&#10;    $END$&#10;  }&#10;},&#10;" description="" toReformat="false" toShortenFQNames="true">
+  <template name="vdata" value="data: () =&gt; ({&#10;  $END$:&#10;})," description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="Vue" value="true" />
     </context>
@@ -84,7 +84,7 @@
       <option name="Vue" value="true" />
     </context>
   </template>
-  <template name="tobj" value="$clip$: { &#10;  type: Object,&#10;  default: () =&gt; {&#10;    return {}&#10;  }&#10;}$END$" description="object prop" toReformat="false" toShortenFQNames="true">
+  <template name="tobj" value="$clip$: { &#10;  type: Object,&#10;  default: () =&gt; ({})&#10;}$END$" description="object prop" toReformat="false" toShortenFQNames="true">
     <variable name="clip" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML" value="true" />
@@ -92,7 +92,7 @@
       <option name="Vue" value="true" />
     </context>
   </template>
-  <template name="tarr" value="$clip$: { &#10;  type: Array,&#10;  default: () =&gt; {&#10;    return []&#10;  }&#10;}$END$" description="array prop" toReformat="false" toShortenFQNames="true">
+  <template name="tarr" value="$clip$: { &#10;  type: Array,&#10;  default: () =&gt; []&#10;}$END$" description="array prop" toReformat="false" toShortenFQNames="true">
     <variable name="clip" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML" value="true" />
@@ -169,7 +169,7 @@
       <option name="Vue" value="true" />
     </context>
   </template>
-  <template name="v-f" value="v-for=&quot;(item, index) in $clip$items&quot; :key=&quot;index&quot;,&#10;$END$&#10;" description="v-for loop" toReformat="false" toShortenFQNames="true">
+  <template name="v-f" value="v-for=&quot;(item, index) in $clip$items&quot; :key=&quot;index&quot;&#10;$END$&#10;" description="v-for loop" toReformat="false" toShortenFQNames="true">
     <variable name="clip" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML" value="true" />
