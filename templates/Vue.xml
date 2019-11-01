@@ -320,4 +320,10 @@
       <option name="Vue" value="true" />
     </context>
   </template>
+  <template name="vme" value="methods: {&#10;  $name$() {&#10;    $END$&#10;  }&#10;}" description="Vue method" toReformat="true" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="VUE_COMPONENT_DESCRIPTOR" value="true" />
+    </context>
+  </template>
 </templateSet>
