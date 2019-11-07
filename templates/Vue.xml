@@ -147,7 +147,7 @@
       <option name="Vue" value="true" />
     </context>
   </template>
-  <template name="sty" value="&lt;style lang=&quot;scss&quot; scoped&gt;&#10;@import '~@/assets/scss/variables';&#10;&#10;$END$&#10;&lt;/style&gt;" description="bool prop" toReformat="false" toShortenFQNames="true">
+  <template name="sty" value="&lt;style lang=&quot;scss&quot; scoped&gt;&#10;@import '~@/assets/scss/abstracts/colors';&#10;&#10;$END$&#10;&lt;/style&gt;" description="bool prop" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="HTML" value="true" />
       <option name="JAVA_SCRIPT" value="true" />
