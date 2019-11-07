@@ -326,4 +326,11 @@
       <option name="VUE_COMPONENT_DESCRIPTOR" value="true" />
     </context>
   </template>
+  <template name="ict" value="@import '~@/assets/scss/abstracts/colors';" description="import colors" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="Vue" value="true" />
+    </context>
+  </template>
 </templateSet>
