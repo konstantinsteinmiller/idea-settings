@@ -22,6 +22,10 @@
           <option name="url" value="git@github.factset.com:Wealth/wm-deka-evin-proxy.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@github.factset.com:ksteinmiller/factsetio-training.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\Users\ksteinmiller" />
