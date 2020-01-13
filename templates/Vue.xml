@@ -341,7 +341,15 @@
     </context>
   </template>
   <template name="tra" value="this.$t('$clip$')$END$" description="i18n translate" toReformat="false" toShortenFQNames="true">
-    <variable name="clip" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="clip" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="trat" value="{{ $t('$clip$')$END$ }}" description="i18n translate" toReformat="false" toShortenFQNames="true">
+    <variable name="clip" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML" value="true" />
       <option name="JAVA_SCRIPT" value="true" />
