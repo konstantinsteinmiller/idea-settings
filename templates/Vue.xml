@@ -307,7 +307,7 @@
       <option name="Vue" value="true" />
     </context>
   </template>
-  <template name="state" value="this.$store.state['$clip$']$END$" description="" toReformat="false" toShortenFQNames="true">
+  <template name="state" value="this.$store.state.$clip$$END$" description="" toReformat="false" toShortenFQNames="true">
     <variable name="clip" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
