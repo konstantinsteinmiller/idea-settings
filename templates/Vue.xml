@@ -368,4 +368,18 @@
       <option name="Vue" value="true" />
     </context>
   </template>
+  <template name="getters" value="this.$store.getters['$END$'](&#10;  &#10;)" description="insert 18n section" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="getMap" value="this.$store.getters['refData/getMap'](&#10;  $END$&#10;)" description="insert 18n section" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="Vue" value="true" />
+    </context>
+  </template>
 </templateSet>
