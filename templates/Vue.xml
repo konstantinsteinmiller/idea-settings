@@ -356,7 +356,7 @@
       <option name="Vue" value="true" />
     </context>
   </template>
-  <template name="isec" value="&lt;i18n src=&quot;@/translations/common&quot; /&gt;&#10;&lt;i18n&gt;&#10;{&#10;  &quot;en&quot;: {&#10;    &quot;1$END$&quot;: &quot;&quot;,&#10;  },&#10;  &quot;de&quot;: {&#10;    &quot;1&quot;: &quot;&quot;,&#10;  }&#10;}&#10;&lt;/i18n&gt;" description="insert 18n section" toReformat="false" toShortenFQNames="true">
+  <template name="isec" value="&lt;i18n src=&quot;@/translations/common&quot; /&gt;&#10;&lt;i18n&gt;&#10;{&#10;  &quot;en&quot;: {&#10;    &quot;1$END$&quot;: &quot;&quot;&#10;  },&#10;  &quot;de&quot;: {&#10;    &quot;1&quot;: &quot;&quot;&#10;  }&#10;}&#10;&lt;/i18n&gt;" description="insert 18n section" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="HTML" value="true" />
       <option name="JAVA_SCRIPT" value="true" />
