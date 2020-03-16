@@ -389,4 +389,28 @@
       <option name="Vue" value="true" />
     </context>
   </template>
+  <template name="vwa" value="watch: {&#10;  $clipboard$() {&#10;    console.log('name ', this.$clipboard$)&#10;  },&#10;},&#10;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="clipboard" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="vwai" value="watch: {&#10;  $clipboard$: {&#10;    handler() {&#10;      console.log('name ', this.$clipboard$)&#10;    },&#10;    immediate: true,&#10;  },&#10;}," description="" toReformat="false" toShortenFQNames="true">
+    <variable name="clipboard" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="copu" value="computed: {&#10;  $clipboard$() {&#10;    return ''&#10;  },&#10;},&#10;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="clipboard" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="Vue" value="true" />
+    </context>
+  </template>
 </templateSet>
