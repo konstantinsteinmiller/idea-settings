@@ -140,11 +140,6 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="ftt" value="$END$: Int!" description="" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
   <template name="ait" value="$END$: [Int!]!" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
@@ -167,11 +162,6 @@
     </context>
   </template>
   <template name="rp" value="parent, args, ctx, info" description="resolverparameters" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="grp" value="$END$(parent, args, { db }, info) {&#10;  return &#10;}," description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
@@ -253,7 +243,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="fff" value="($END$) =&gt; {}" description="" toReformat="false" toShortenFQNames="true">
+  <template name="fff" value="$END$ =&gt; {&#10;  &#10;}" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
@@ -266,6 +256,11 @@
   </template>
   <template name="crem" value="this.$store.getters['refData/getMap']($clip$)$END$" description="" toReformat="false" toShortenFQNames="true">
     <variable name="clip" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="&lt;abbreviation&gt;" value="$END$(parent, args, { db }, info) {&#10;  return &#10;}," description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
