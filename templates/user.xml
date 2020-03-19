@@ -260,8 +260,10 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="&lt;abbreviation&gt;" value="$END$(parent, args, { db }, info) {&#10;  return &#10;}," description="" toReformat="false" toShortenFQNames="true">
+  <template name="prin" value="console.log(JSON.stringify($clipboard$, undefined, 2))$END$" description="prints object in console" toReformat="false" toShortenFQNames="true">
+    <variable name="clipboard" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
     <context>
+      <option name="HTML" value="true" />
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
