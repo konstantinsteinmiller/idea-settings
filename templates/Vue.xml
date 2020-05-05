@@ -413,4 +413,12 @@
       <option name="Vue" value="true" />
     </context>
   </template>
+  <template name="stry" value="JSON.stringify($clip$)$END$" description="string prop" toReformat="false" toShortenFQNames="true">
+    <variable name="clip" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="Vue" value="true" />
+    </context>
+  </template>
 </templateSet>
