@@ -289,4 +289,11 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
+  <template name="denol" value="import { $END$ } from 'https://deno.land/'" description="interpolate" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
 </templateSet>
