@@ -274,4 +274,26 @@
       <option name="Vue" value="true" />
     </context>
   </template>
+  <template name="impp" value="import { $clipboard$ } from '$END$'" description="interpolate" toReformat="false" toShortenFQNames="true">
+    <variable name="clipboard" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="impo" value="import { $END$ } from ''" description="interpolate" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="denol" value="import { $END$ } from 'https://deno.land/'" description="interpolate" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
 </templateSet>
