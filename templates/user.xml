@@ -28,12 +28,6 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="pri" value="DEBUG___$clipboard$FirstElement = $clipboard$.length &amp;&amp; JSON.parse(JSON.stringify($clipboard$)).shift()&#10;console.log('$clipboard$: '+ JSON.stringify(DEBUG___$clipboard$$END$FirstElement, undefined, 4), $clipboard$)" description="print formated" toReformat="false" toShortenFQNames="true">
-    <variable name="clipboard" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
   <template name="dump" value="console.log('$clipboard$: ', $clipboard$)$END$" description="dumps object in console" toReformat="false" toShortenFQNames="true">
     <variable name="clipboard" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -49,12 +43,6 @@
   <template name="fu" value="$END$(function(){&#10;    return ;&#10;});" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="printl" value="System.out.printf('$clipboad$ %s\n', $clipboad$$END$)" description="dump variable in JAVA" toReformat="false" toShortenFQNames="true">
-    <variable name="clipboad" expression="" defaultValue="" alwaysStopAt="false" />
-    <context>
-      <option name="OTHER" value="true" />
     </context>
   </template>
   <template name=".then" value=".then(res =&gt; {&#10;  console.log(res);&#10;  $END$&#10;})&#10;.catch(e =&gt; console.log(e) ) " description="" toReformat="false" toShortenFQNames="true">
@@ -125,7 +113,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="idt" value="$END$: ID!" description="" toReformat="false" toShortenFQNames="true">
+  <template name="c" value="const $END$" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
@@ -294,6 +282,30 @@
       <option name="HTML" value="true" />
       <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="rfce" value="import React from 'react'&#10;&#10;function $TM_FILENAME_BASE$() {&#10;  return (&#10;    &lt;div&gt;&#10;      $END$&#10;    &lt;/div&gt;&#10;  )&#10;}&#10;&#10;export default $TM_FILENAME_BASE$" description="dumps object in console" toReformat="false" toShortenFQNames="true">
+    <variable name="TM_FILENAME_BASE" expression="capitalize(camelCase(fileNameWithoutExtension()))" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="tab" value="console.table($clipboard$)$END$" description="string compare of objects" toReformat="false" toShortenFQNames="true">
+    <variable name="clipboard" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="Vue" value="true" />
+    </context>
+  </template>
+  <template name="cn" value="className=&quot;$END$&quot;" description="string compare of objects" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ffa" value="() =&gt; {&#10;  $END$&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
 </templateSet>

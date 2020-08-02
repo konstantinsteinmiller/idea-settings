@@ -12,4 +12,9 @@
     <variable name="TM_FILENAME_BASE" expression="capitalize(camelCase(fileNameWithoutExtension()))" defaultValue="&quot;&quot;" alwaysStopAt="true" />
     <context />
   </template>
+  <template name="&lt;abbreviation&gt;" value="getSnapshotBeforeUpdate(prevProps, prevState) {&#10; $END$&#10;}&#10;" description="Invoked right before the most recently rendered output is committed to e.g. the DOM. It enables your component to capture current values" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
