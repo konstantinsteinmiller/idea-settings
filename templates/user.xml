@@ -284,8 +284,9 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="rfce" value="import React from 'react'&#10;&#10;function $TM_FILENAME_BASE$() {&#10;  return (&#10;    &lt;div&gt;&#10;      $END$&#10;    &lt;/div&gt;&#10;  )&#10;}&#10;&#10;export default $TM_FILENAME_BASE$" description="dumps object in console" toReformat="false" toShortenFQNames="true">
+  <template name="rfce" value="import React from 'react'&#10;&#10;function $TM_FILENAME_BASE$() {&#10;  return (&#10;    &lt;div className=&quot;$kebabTM_FILENAME_BASE$&quot;&gt;&#10;      $END$&#10;    &lt;/div&gt;&#10;  )&#10;}&#10;&#10;export default $TM_FILENAME_BASE$" description="dumps object in console" toReformat="false" toShortenFQNames="true">
     <variable name="TM_FILENAME_BASE" expression="capitalize(camelCase(fileNameWithoutExtension()))" defaultValue="" alwaysStopAt="true" />
+    <variable name="kebabTM_FILENAME_BASE" expression="lowercaseAndDash(fileNameWithoutExtension()))" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML" value="true" />
       <option name="JAVA_SCRIPT" value="true" />
