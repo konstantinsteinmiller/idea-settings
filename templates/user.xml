@@ -309,4 +309,18 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="t" value="&lt;$clipboard$ /&gt;$END$" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="clipboard" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="usef" value="useEffect(() =&gt; {&#10;  $END$&#10;}, [$clipbord$])" description="interpolate" toReformat="false" toShortenFQNames="true">
+    <variable name="clipbord" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
 </templateSet>
