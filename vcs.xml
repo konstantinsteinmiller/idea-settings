@@ -30,6 +30,10 @@
           <option name="url" value="git@github.factset.com:ksteinmiller/vue-node-factset-io-app.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://gitlab.ti8m.ch" />
+          <option name="userName" value="tan" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\Users\ksteinmiller" />
