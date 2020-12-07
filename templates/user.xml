@@ -323,4 +323,20 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
+  <template name="impr" value="import React from 'react'&#10;$END$" shortcut="TAB" description="console.log(&quot;&quot;);" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="rett" value="return (&#10;&#9;$END$&#10;)" shortcut="TAB" description="console.log(&quot;&quot;);" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ffr" value="const $clipboard$ = () =&gt; {&#10;  return &#10;    $END$&#10;  )&#10;}&#10;&#10;export default $clipboard$" shortcut="TAB" description="console.log(&quot;&quot;);" toReformat="false" toShortenFQNames="true">
+    <variable name="clipboard" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
