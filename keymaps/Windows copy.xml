@@ -12,11 +12,11 @@
   <action id="CommentByBlockComment">
     <keyboard-shortcut first-keystroke="shift ctrl divide" />
     <keyboard-shortcut first-keystroke="ctrl 1" />
-    <keyboard-shortcut first-keystroke="ctrl 2" />
   </action>
   <action id="CommentByLineComment">
     <keyboard-shortcut first-keystroke="ctrl divide" />
     <keyboard-shortcut first-keystroke="ctrl dead_circumflex" />
+    <keyboard-shortcut first-keystroke="ctrl 2" />
   </action>
   <action id="Console.TableResult.DeleteRows" />
   <action id="Console.TableResult.EditValue">
