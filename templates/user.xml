@@ -373,4 +373,16 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="inter" value="interface $clipboard$ {&#10;  $END$&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="clipboard" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="tt" value="&lt;$clipboard$ /&gt;$END$" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="clipboard" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
