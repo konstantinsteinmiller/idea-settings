@@ -17,6 +17,7 @@
     <keyboard-shortcut first-keystroke="ctrl divide" />
     <keyboard-shortcut first-keystroke="ctrl dead_circumflex" />
     <keyboard-shortcut first-keystroke="ctrl 2" />
+    <keyboard-shortcut first-keystroke="ctrl circumflex" />
   </action>
   <action id="Console.TableResult.DeleteRows" />
   <action id="Console.TableResult.EditValue">
