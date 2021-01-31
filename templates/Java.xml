@@ -11,4 +11,10 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="o" value="{$clipboard$}" description="public static final" toReformat="false" toShortenFQNames="false">
+    <variable name="clipboard" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
