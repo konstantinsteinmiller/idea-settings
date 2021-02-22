@@ -31,6 +31,10 @@
     <keyboard-shortcut first-keystroke="ctrl y" />
   </action>
   <action id="EditorDeleteLine" />
+  <action id="EditorToggleInsertState">
+    <keyboard-shortcut first-keystroke="insert" />
+    <keyboard-shortcut first-keystroke="f13" />
+  </action>
   <action id="FileChooser.GotoHome" />
   <action id="FileChooser.GotoProject" />
   <action id="Git.Reword.Commit">
