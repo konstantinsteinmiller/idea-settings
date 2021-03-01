@@ -31,6 +31,10 @@
     <keyboard-shortcut first-keystroke="ctrl y" />
   </action>
   <action id="EditorDeleteLine" />
+  <action id="EditorToggleInsertState">
+    <keyboard-shortcut first-keystroke="insert" />
+    <keyboard-shortcut first-keystroke="f13" />
+  </action>
   <action id="FileChooser.GotoHome" />
   <action id="FileChooser.GotoProject" />
   <action id="Git.Reword.Commit">
@@ -54,6 +58,9 @@
   </action>
   <action id="ShelvedChanges.Rename">
     <keyboard-shortcut first-keystroke="shift f6" />
+  </action>
+  <action id="TsLintFileFixAction">
+    <mouse-shortcut keystroke="control button3 doubleClick" />
   </action>
   <action id="XDebugger.EditWatch" />
   <action id="XDebugger.SetValue" />
