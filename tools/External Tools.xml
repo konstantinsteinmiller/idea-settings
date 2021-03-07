@@ -1,0 +1,9 @@
+<toolSet name="External Tools">
+  <tool name="stylelint" description="fixing all stylelint errors" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="C:\Program Files\nodejs\stylelint.cmd" />
+      <option name="PARAMETERS" value="$FileName$ --fix" />
+      <option name="WORKING_DIRECTORY" value="$FileDir$" />
+    </exec>
+  </tool>
+</toolSet>
