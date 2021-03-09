@@ -395,7 +395,27 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="meshl" value="&lt;meshLabertMaterial attach=&quot;material&quot; color=&quot;hotpink&quot; /&gt;$END$" description="" toReformat="false" toShortenFQNames="true">
+  <template name="meshl" value="&lt;meshLambertMaterial attach=&quot;material&quot; color=&quot;hotpink&quot; /&gt;$END$" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ambl" value="&lt;ambientLight intensity={0.5} /&gt;$END$" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="spotl" value="&lt;spotLight position={[10, 15, 10]} angle={0.3} /&gt;$END$" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="planeb" value="&lt;planeBufferGeometry attach=&quot;geometry&quot; /&gt;$END$" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="v3" value="[0, 0, 0$END$]" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
