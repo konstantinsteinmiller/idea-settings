@@ -40,7 +40,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="fu" value="$END$(function(){&#10;    return ;&#10;});" description="" toReformat="false" toShortenFQNames="true">
+  <template name="fu" value="function(){&#10;  return $END$&#10;}" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
@@ -386,6 +386,16 @@
     </context>
   </template>
   <template name="ffar" value="(props) =&gt; {&#10;  $END$&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="boxb" value="&lt;boxBufferGeometry attach=&quot;geometry&quot; /&gt;$END$" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="meshl" value="&lt;meshLabertMaterial attach=&quot;material&quot; color=&quot;hotpink&quot; /&gt;$END$" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
