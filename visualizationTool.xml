@@ -1,8 +1,8 @@
 <application>
-  <component name="AndroidEditors">
+  <component name="VisualizationTool">
     <option name="state">
       <GlobalState>
-        <option name="visible" value="false" />
+        <option name="firstTimeOpen" value="false" />
       </GlobalState>
     </option>
   </component>
