@@ -34,6 +34,10 @@
           <option name="url" value="http://gitlab.ti8m.ch" />
           <option name="userName" value="tan" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://git.daimler.com" />
+          <option name="userName" value="STEINKO" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\Users\ksteinmiller" />
