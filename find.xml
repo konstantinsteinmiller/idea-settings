@@ -3,8 +3,9 @@
     <option name="customScope" value="Default Changelist" />
     <option name="defaultScopeName" value="Default Changelist" />
     <option name="SEARCH_SCOPE" value="Default Changelist" />
+    <option name="FILE_MASK" value="*.js" />
     <mask>*spec.js</mask>
-    <mask>*.js</mask>
     <mask>*.d.</mask>
+    <mask>*.js</mask>
   </component>
 </application>
