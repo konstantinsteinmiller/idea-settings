@@ -1,6 +1,6 @@
 <templateSet group="Vue">
-  <template name="rend" value="{{ JSON.stringify($clip$, undefined, 2)   }}$END$" description="render variable" toReformat="false" toShortenFQNames="true">
-    <variable name="clip" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="rend" value="{{ JSON.stringify($clip$, undefined, 2) }}$END$" description="render variable" toReformat="false" toShortenFQNames="true">
+    <variable name="clip" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="ACTION_SCRIPT" value="false" />
       <option name="ASPECTJ" value="false" />
