@@ -1,8 +1,8 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
-      <mapping pattern="env" type="AUTO_DETECTED" />
       <mapping pattern="test1" type="AUTO_DETECTED" />
+      <mapping pattern="env" type="AUTO_DETECTED" />
       <mapping pattern="test2" type="AUTO_DETECTED" />
       <mapping ext="space.kts" type="Kotlin" />
       <mapping ext="gradle.kts" type="Kotlin" />
@@ -11,6 +11,7 @@
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="psd" approved="true" type="Image" />
       <removed_mapping pattern=".env" approved="true" type="Env File" />
     </extensionMap>
   </component>
