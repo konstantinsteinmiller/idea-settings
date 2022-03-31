@@ -13,6 +13,7 @@
     <keyboard-shortcut first-keystroke="ctrl slash" />
     <keyboard-shortcut first-keystroke="ctrl divide" />
     <keyboard-shortcut first-keystroke="ctrl less" />
+    <keyboard-shortcut first-keystroke="ctrl circumflex" />
   </action>
   <action id="DuplicatesForm.SendToLeft" />
   <action id="EditorDeleteLine" />
