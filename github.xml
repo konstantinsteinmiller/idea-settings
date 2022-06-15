@@ -1,5 +1,8 @@
 <application>
   <component name="GithubAccounts">
+    <account name="STEINKO" id="aa9cb12d-5889-42a9-81b1-db88ab4bb10e">
+      <server useHttp="false" host="git.daimler.com" />
+    </account>
     <account name="konstantinsteinmiller" id="0c1822a4-7b68-4748-b382-b72707a22909">
       <server host="github.com" />
     </account>
