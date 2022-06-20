@@ -429,4 +429,11 @@
       <option name="Vue" value="true" />
     </context>
   </template>
+  <template name="cupu" value="$underscoreCapitalize$ $END$" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="underscoreCapitalize" expression="capitalizeAndUnderscore(clipboard())" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="Vue" value="true" />
+    </context>
+  </template>
 </templateSet>
