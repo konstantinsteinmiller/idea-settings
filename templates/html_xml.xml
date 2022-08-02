@@ -13,4 +13,9 @@
       <option name="Vue" value="true" />
     </context>
   </template>
+  <template name="cxy" value="top: 50%;&#10;left: 50%;&#10;transform: translate(-50%, -50%);" description="center xy" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
 </templateSet>
