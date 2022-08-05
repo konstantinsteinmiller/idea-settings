@@ -186,4 +186,9 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
+  <template name="timer" value="if (this.frameTimer &gt; this.frameInterval) {&#10;  // do something&#10;  this.frameX &lt; this.maxFrame ? this.frameX++ : this.frame = 0&#10;  this.frameTimer = 0&#10;} else this.frameTimer += deltaTime" description="timer" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
