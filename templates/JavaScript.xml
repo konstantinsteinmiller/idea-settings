@@ -174,4 +174,16 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="txywh" value="this.x, this.y, this.weigth, this.height" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="tj" value="this." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
 </templateSet>
