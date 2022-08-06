@@ -208,4 +208,10 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="gclass" value="class Player {&#10;  constructor(x, y) {&#10;    this.x = x&#10;    this.y = y&#10;    this.radius = 50&#10;    this.angle = 0&#10;    this.width = 0&#10;    this.height = 0&#10;    this.maxFrames = 0&#10;    this.frameX = 0&#10;    this.frameY = 0&#10;    this.spriteWidth = 498&#10;    this.spriteHeight = 327&#10;  }&#10;  update() {&#10;  &#10;  }&#10;  draw(context) {&#10;  &#10;  }&#10;}" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
 </templateSet>
