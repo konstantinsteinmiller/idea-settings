@@ -202,4 +202,10 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
+  <template name="timerx" value="if (this.$clipboard$Timer &gt; this.$clipboard$Interval) {&#10;  this.frameX &lt; this.maxFrame ? this.frameX++ : this.frameX = 0&#10;  this.$clipboard$Timer = 0&#10;} else this.$clipboard$Timer += deltaTime" description="timer" toReformat="false" toShortenFQNames="true">
+    <variable name="clipboard" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
