@@ -214,4 +214,10 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
+  <template name="drawImage" value="context.drawImage(&#10;  this.image,&#10;  this.frameX * this.spriteWidth, this.frameY * this.spriteHeight, this.spriteWidth, this.spriteHeight,&#10;  this.x, this.y, this.width, this.height&#10;)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
 </templateSet>
