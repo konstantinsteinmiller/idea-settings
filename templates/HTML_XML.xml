@@ -1,0 +1,9 @@
+<templateSet group="HTML/XML">
+  <template name="liquid" value="&lt;svg&gt;&#10;  &lt;defs&gt;&#10;    &lt;filter id=&quot;goo&quot;&gt;&#10;      &lt;feGaussianBlur in=&quot;SourceGraphic&quot; stdDeviation=&quot;10&quot; result=&quot;blur&quot; /&gt;&#10;      &lt;feColorMatrix in=&quot;blur&quot; mode=&quot;matrix&quot; values=&quot; 1 0 0 0 0&#10;                                                      0 1 0 0 0&#10;                                                      0 0 1 0 0&#10;                                                      0 0 0 22 -9&quot;/&gt;&#10;      &lt;feBlend in=&quot;SourceGraphic&quot; in2=&quot;goo&quot; /&gt;&#10;    &lt;/filter&gt;&#10;  &lt;/defs&gt;&#10;&lt;/svg&gt;" description="Surround with CDATA section" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JSP" value="true" />
+      <option name="XML_TEXT" value="true" />
+    </context>
+  </template>
+</templateSet>
