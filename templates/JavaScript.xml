@@ -220,4 +220,10 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
+  <template name="rxyr" value="this.x, this.y, this.radius, 0, Math.PI * 2" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
 </templateSet>
