@@ -238,4 +238,10 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
+  <template name="collc" value="const dx = circle1.x - circle2.x&#10;const dy = circle1.y - circle2.y&#10;const distance = Math.sqrt(dx*dx + dy*dy)&#10;&#10;if (distance &lt; circle1.radius + circle2.radius) {&#10;  // collision detected&#10;}" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
 </templateSet>
