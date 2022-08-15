@@ -9,7 +9,8 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="if" value="if($END$){&#10;    &#10;}" description="" toReformat="false" toShortenFQNames="true">
+  <template name="if" value="if ($clipboard$$END$) {&#10;    &#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="clipboard" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>

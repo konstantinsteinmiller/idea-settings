@@ -1,3 +1,13 @@
 <templateSet group="Zen CSS">
   <template name="wid" value="widows: $END$;" description="widows:...;" toReformat="true" toShortenFQNames="true" />
+  <template name="test" value="sdf" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="centerxy" value="top: 50%;&#10;left: 50%;&#10;transform: translate(-50%, -50%);" description="center css" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
 </templateSet>

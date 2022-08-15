@@ -436,4 +436,10 @@
       <option name="Vue" value="true" />
     </context>
   </template>
+  <template name="snake" value="$camel$$END$" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="camel" expression="capitalizeAndUnderscore(clipboard())" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
 </templateSet>

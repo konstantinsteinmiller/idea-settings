@@ -126,4 +126,128 @@
       <option name="Vue" value="true" />
     </context>
   </template>
+  <template name="rand" value="Math.random() * $END$" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="ANY_OPENAPI_JSON_FILE" value="false" />
+      <option name="ANY_OPENAPI_YAML_FILE" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="GENERAL_JSON_FILE" value="false" />
+      <option name="GENERAL_YAML_FILE" value="false" />
+      <option name="GROOVY" value="false" />
+      <option name="HAML" value="false" />
+      <option name="HTML" value="false" />
+      <option name="HTTP_CLIENT_ENVIRONMENT" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="JSP" value="false" />
+      <option name="KOTLIN" value="false" />
+      <option name="MAVEN" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="PROTO" value="false" />
+      <option name="PROTOTEXT" value="false" />
+      <option name="REQUEST" value="false" />
+      <option name="SHELL_SCRIPT" value="false" />
+      <option name="SQL" value="false" />
+      <option name="Vue" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_ATTRIBUTE" value="false" />
+    </context>
+  </template>
+  <template name="half" value="$clipboard$ / 2" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="clipboard" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ECMAScript6" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="xywh" value="this.x = &#10;this.y = &#10;this.width = &#10;this.height = &#10;this.spriteWidth = &#10;this.spriteHeight = &#10;this.frameX = 0&#10;this.frameY = 0" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="wh" value="width, height" description="width height" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="txywh" value="this.x, this.y, this.width, this.height" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="tj" value="this." description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="timer" value="if (this.frameTimer &gt; this.frameInterval) {&#10;  // do something&#10;  this.frameX &lt; this.maxFrame ? this.frameX++ : this.frameX = 0&#10;  this.frameTimer = 0&#10;} else this.frameTimer += deltaTime" description="timer" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="and" value="&amp;&amp; " description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="j" value="this." description="this." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="timerx" value="if (this.$clipboard$Timer &gt; this.$clipboard$Interval) {&#10;  this.frameX &lt; this.maxFrame ? this.frameX++ : this.frameX = 0&#10;  this.$clipboard$Timer = 0&#10;} else this.$clipboard$Timer += deltaTime" description="timer" toReformat="false" toShortenFQNames="true">
+    <variable name="clipboard" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="gclass" value="class Player {&#10;  constructor(x, y) {&#10;    this.x = x&#10;    this.y = y&#10;    this.radius = 50&#10;    this.angle = 0&#10;    this.width = 0&#10;    this.height = 0&#10;    this.maxFrames = 0&#10;    this.frameX = 0&#10;    this.frameY = 0&#10;    this.spriteWidth = 498&#10;    this.spriteHeight = 327&#10;  }&#10;  update() {&#10;  &#10;  }&#10;  draw(context) {&#10;  &#10;  }&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="drawImage" value="context.drawImage(&#10;  this.image,&#10;  this.frameX * this.spriteWidth, this.frameY * this.spriteHeight, this.spriteWidth, this.spriteHeight,&#10;  this.x, this.y, this.width, this.height&#10;)" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="rxyr" value="this.x, this.y, this.radius, 0, Math.PI * 2" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="gr" value="&gt;=" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="le" value="&lt;=" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="collc" value="const dx = circle1.x - circle2.x&#10;const dy = circle1.y - circle2.y&#10;const distance = Math.sqrt(dx*dx + dy*dy)&#10;&#10;if (distance &lt; circle1.radius + circle2.radius) {&#10;  // collision detected&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="txy" value="this.x, this.y," description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
 </templateSet>
