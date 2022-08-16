@@ -90,14 +90,6 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="$" value="${ $clip$$END$ }" description="prints object in console" toReformat="false" toShortenFQNames="true">
-    <variable name="clip" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="HTML" value="true" />
-      <option name="JAVA_SCRIPT" value="true" />
-      <option name="Vue" value="true" />
-    </context>
-  </template>
   <template name="oo" value="{$clip$}" description="prints object in console" toReformat="false" toShortenFQNames="true">
     <variable name="clip" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -119,38 +111,12 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="stt" value="$END$: String!" description="" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="ast" value="$END$: [String!]!" description="" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="ait" value="$END$: [Int!]!" description="" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="act" value="$END$: [$clip$!]!" description="" toReformat="false" toShortenFQNames="true">
-    <variable name="clip" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
   <template name="ge" value="$END$() {&#10;  return &#10;}" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
   <template name="g" value="$END$() {&#10;  return &#10;}," description="" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="rp" value="parent, args, ctx, info" description="resolverparameters" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
@@ -174,12 +140,6 @@
   </template>
   <template name="expe" value="expect($clip$).$END$" description="" toReformat="false" toShortenFQNames="true">
     <variable name="clip" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="asf" value="async () =&gt; { &#10;  $clip$$END$&#10;}" description="" toReformat="false" toShortenFQNames="true">
-    <variable name="clip" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
@@ -256,13 +216,6 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="scomp" value="JSON.parse(JSON.stringify($clipboard$)) === JSON.parse(JSON.stringify($END$))" description="string compare of objects" toReformat="false" toShortenFQNames="true">
-    <variable name="clipboard" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-      <option name="Vue" value="true" />
-    </context>
-  </template>
   <template name="impp" value="import { $clipboard$ } from '$END$'" description="interpolate" toReformat="false" toShortenFQNames="true">
     <variable name="clipboard" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -283,14 +236,6 @@
       <option name="HTML" value="true" />
       <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="true" />
-    </context>
-  </template>
-  <template name="rfce" value="import React from 'react'&#10;&#10;function $TM_FILENAME_BASE$() {&#10;  return (&#10;    &lt;div className=&quot;$kebabTM_FILENAME_BASE$&quot;&gt;&#10;      $END$&#10;    &lt;/div&gt;&#10;  )&#10;}&#10;&#10;export default $TM_FILENAME_BASE$" description="dumps object in console" toReformat="false" toShortenFQNames="true">
-    <variable name="TM_FILENAME_BASE" expression="capitalize(camelCase(fileNameWithoutExtension()))" defaultValue="" alwaysStopAt="true" />
-    <variable name="kebabTM_FILENAME_BASE" expression="lowercaseAndDash(fileNameWithoutExtension()))" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="HTML" value="true" />
-      <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
   <template name="tab" value="console.table($clipboard$)$END$" description="string compare of objects" toReformat="false" toShortenFQNames="true">
@@ -341,29 +286,12 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="rclass" value="import React, { Component } from 'react'&#10;&#10;class $clipboard$ extends Component {&#10;&#9;&#10;  render() {&#10;&#9;&#9;return(&#10;&#9;&#9;&#9;$END$&#10;&#9;&#9;)&#10;&#9;}&#10;}&#10;&#10;export default $clipboard$" shortcut="TAB" description="console.log(&quot;&quot;);" toReformat="false" toShortenFQNames="true">
-    <variable name="clipboard" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
   <template name="br" value="($END$)" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="bi" value="$END$ ? : " description="" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
   <template name="impc" value="import $clipboard$ from '~/$clipboard$/$clipboard$'&#10;$END$" shortcut="TAB" description="console.log(&quot;&quot;);" toReformat="false" toShortenFQNames="true">
-    <variable name="clipboard" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="withr" value="withRouter($clipboard$)&#10;import { withRouter } from 'react-router-dom'$END$" shortcut="TAB" description="console.log(&quot;&quot;);" toReformat="false" toShortenFQNames="true">
     <variable name="clipboard" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
@@ -391,27 +319,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="boxb" value="&lt;boxBufferGeometry attach=&quot;geometry&quot; /&gt;$END$" description="" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
   <template name="meshl" value="&lt;meshLambertMaterial attach=&quot;material&quot; color=&quot;hotpink&quot; /&gt;$END$" description="" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="ambl" value="&lt;ambientLight intensity={0.5} /&gt;$END$" description="" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="spotl" value="&lt;spotLight position={[10, 15, 10]} angle={0.3} /&gt;$END$" description="" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="planeb" value="&lt;planeBufferGeometry attach=&quot;geometry&quot; /&gt;$END$" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
@@ -462,6 +370,11 @@
     </context>
   </template>
   <template name="mesh" value="const boxMesh = new THREE.Mesh(&#10;  new THREE.BoxGeometry(1, 1, 1),&#10;  new THREE.MeshBasicMaterial({ color: 0xff0000 }),&#10;)" description="basic mesh" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="orbit" value="import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js'&#10;const controls = new OrbitControls()" description="orbit camera import" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
