@@ -461,4 +461,9 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="mesh" value="const boxMesh = new THREE.Mesh(&#10;  new THREE.BoxGeometry(1, 1, 1),&#10;  new THREE.MeshBasicMaterial({ color: 0xff0000 }),&#10;)" description="basic mesh" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
