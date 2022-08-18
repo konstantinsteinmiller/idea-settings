@@ -379,7 +379,17 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="tre" value="THREE" description="THREE" toReformat="false" toShortenFQNames="true">
+  <template name="tre" value="THREE." description="THREE" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="tree" value="new THREE." description="THREE" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="mba" value="new THREE.MeshBasicMaterial($END$)" description="THREE" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
