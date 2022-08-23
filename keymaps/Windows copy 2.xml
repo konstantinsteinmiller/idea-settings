@@ -8,10 +8,14 @@
     <keyboard-shortcut first-keystroke="ctrl slash" />
     <keyboard-shortcut first-keystroke="ctrl divide" />
     <keyboard-shortcut first-keystroke="ctrl circumflex" />
+    <keyboard-shortcut first-keystroke="ctrl 2" />
   </action>
   <action id="DuplicatesForm.SendToLeft" />
+  <action id="DuplicatesForm.SendToRight" />
   <action id="FileChooser.GotoHome" />
+  <action id="FileChooser.GotoProject" />
   <action id="GotoBookmark1" />
+  <action id="GotoBookmark2" />
   <action id="Javascript.Linters.EsLint.Fix">
     <mouse-shortcut keystroke="control button3 doubleClick" />
   </action>
