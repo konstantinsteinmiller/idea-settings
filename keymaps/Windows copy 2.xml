@@ -1,4 +1,9 @@
 <keymap version="1" name="Windows copy 2" parent="$default">
+  <action id="$Redo">
+    <keyboard-shortcut first-keystroke="shift ctrl z" />
+    <keyboard-shortcut first-keystroke="shift alt back_space" />
+    <keyboard-shortcut first-keystroke="ctrl y" />
+  </action>
   <action id="CommentByBlockComment">
     <keyboard-shortcut first-keystroke="shift ctrl slash" />
     <keyboard-shortcut first-keystroke="shift ctrl divide" />
@@ -8,14 +13,15 @@
     <keyboard-shortcut first-keystroke="ctrl slash" />
     <keyboard-shortcut first-keystroke="ctrl divide" />
     <keyboard-shortcut first-keystroke="ctrl circumflex" />
-    <keyboard-shortcut first-keystroke="ctrl 2" />
   </action>
+  <action id="Console.TableResult.DeleteRows" />
   <action id="DuplicatesForm.SendToLeft" />
-  <action id="DuplicatesForm.SendToRight" />
+  <action id="Editor Redo">
+    <keyboard-shortcut first-keystroke="ctrl y" />
+  </action>
+  <action id="EditorDeleteLine" />
   <action id="FileChooser.GotoHome" />
-  <action id="FileChooser.GotoProject" />
   <action id="GotoBookmark1" />
-  <action id="GotoBookmark2" />
   <action id="Javascript.Linters.EsLint.Fix">
     <mouse-shortcut keystroke="control button3 doubleClick" />
   </action>
