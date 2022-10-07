@@ -31,6 +31,9 @@
     <keyboard-shortcut first-keystroke="ctrl y" />
   </action>
   <action id="EditorDeleteLine" />
+  <action id="EslintImportCodeStyle">
+    <mouse-shortcut keystroke="control button1 doubleClick" />
+  </action>
   <action id="FileChooser.GotoHome" />
   <action id="Git.Rename.Local.Branch">
     <keyboard-shortcut first-keystroke="shift f6" />
